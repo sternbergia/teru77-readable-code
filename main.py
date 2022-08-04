@@ -9,7 +9,7 @@ def Parse():
 
 def main():
 
-    args = Parse() # 引数の設定
+    args = Parse() # 引数の取得
 
     filePath = args.filePath
     with open(filePath, encoding="utf8", newline="") as f:
