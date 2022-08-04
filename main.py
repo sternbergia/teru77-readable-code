@@ -8,8 +8,8 @@ def Parse():
     return args
 
 def main():
-    # 引数の設定
-    args = Parse()
+
+    args = Parse() # 引数の設定
 
     filePath = args.filePath
     with open(filePath, encoding="utf8", newline="") as f:
