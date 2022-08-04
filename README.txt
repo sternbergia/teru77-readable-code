@@ -1,3 +1,6 @@
 開発言語：Python
 利用したエディタ：VS Code
-プログラムの使用方法: python main.py
+単語データファイルのフォーマット： CSV
+
+プログラムの使用方法: python3 main.py　PATH
+PATH = 単語ファイルのパス (ex. python3 main.py　./word.csv )
