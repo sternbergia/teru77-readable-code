@@ -4,3 +4,5 @@
 
 プログラムの使用方法: python3 main.py　PATH
 PATH = 単語ファイルのパス (ex. python3 main.py　./word.csv )
+
+git pushできた(島田)
