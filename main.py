@@ -12,7 +12,7 @@ def main():
         else:
             for i, word in enumerate(words_road):
                 if i + 1 == int(input_num):
-                    print(f"{i+1}:", *word)
+                    print(f"{i+1}:", word[0], word[1])
                     break
 
 
