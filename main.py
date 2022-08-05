@@ -8,7 +8,7 @@ def main():
     with open(filePath, encoding="utf8", newline="") as f:
         print("ユーザ名:", input_name)
         words_road = csv.reader(f)
-        if True:  # 入力に関係なくこちらを処理する
+        if not input_num:
             for i, word in enumerate(words_road):
                 print(f"{i+1}:", word[0], word[1])
         else:
