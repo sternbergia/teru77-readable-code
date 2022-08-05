@@ -3,8 +3,10 @@ import csv
 
 def main():
     filePath = "./words.csv"
+    input_name = input("名前を入力してください：")
     input_num = input("数字を入力してください：")
     with open(filePath, encoding="utf8", newline="") as f:
+        print("ユーザ名:", input_name)
         words_road = csv.reader(f)
         if True:  # 入力に関係なくこちらを処理する
             for i, word in enumerate(words_road):
